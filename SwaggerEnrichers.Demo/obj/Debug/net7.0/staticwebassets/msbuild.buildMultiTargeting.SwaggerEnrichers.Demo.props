@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\SwaggerEnrichers.Demo.props" />
+</Project>

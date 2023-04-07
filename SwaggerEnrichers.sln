@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwaggerEnrichers", "Swagger
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwaggerEnrichers.UnitTests", "SwaggerEnrichers.UnitTests\SwaggerEnrichers.UnitTests.csproj", "{FBA7E321-D659-4D87-A563-4737A671949E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwaggerEnrichers.Demo", "SwaggerEnrichers.Demo\SwaggerEnrichers.Demo.csproj", "{A49175F8-3215-46BD-9AEA-05EDAD586787}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{FBA7E321-D659-4D87-A563-4737A671949E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FBA7E321-D659-4D87-A563-4737A671949E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FBA7E321-D659-4D87-A563-4737A671949E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A49175F8-3215-46BD-9AEA-05EDAD586787}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A49175F8-3215-46BD-9AEA-05EDAD586787}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A49175F8-3215-46BD-9AEA-05EDAD586787}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A49175F8-3215-46BD-9AEA-05EDAD586787}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
