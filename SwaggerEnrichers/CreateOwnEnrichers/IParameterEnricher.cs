@@ -1,6 +1,6 @@
 ﻿using Microsoft.OpenApi.Models;
 
-namespace Api.Swagger.EnricherSystem.CreateOwnEnrichers;
+namespace SwaggerEnrichers.CreateOwnEnrichers;
 
 public interface IParameterEnricher
 {

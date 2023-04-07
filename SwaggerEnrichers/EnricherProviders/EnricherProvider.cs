@@ -1,9 +1,9 @@
 ﻿using System.Reflection;
-using Api.Swagger.EnricherSystem.CreateOwnEnrichers;
+using SwaggerEnrichers.CreateOwnEnrichers;
 
-namespace Api.Swagger.EnricherSystem.Filters;
+namespace SwaggerEnrichers.EnricherProviders;
 
-public class EnricherProvider : ISchemaEnricherProvider, IParameterEnricherProvider
+internal class EnricherProvider : ISchemaEnricherProvider, IParameterEnricherProvider
 {
     private readonly AttributeExtractor _attributeExtractor = new AttributeExtractor();
     

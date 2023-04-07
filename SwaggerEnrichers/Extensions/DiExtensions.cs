@@ -1,8 +1,8 @@
-﻿using Api.Swagger.EnricherSystem.Filters;
-using Microsoft.Extensions.DependencyInjection;
+﻿using Microsoft.Extensions.DependencyInjection;
+using SwaggerEnrichers.Filters;
 using Swashbuckle.AspNetCore.SwaggerGen;
 
-namespace Api.Swagger.EnricherSystem.Extensions;
+namespace SwaggerEnrichers.Extensions;
 
 public static class DiExtensions
 {
@@ -10,5 +10,13 @@ public static class DiExtensions
     {
         options.ParameterFilter<ParameterEnricherFilter>();
         options.SchemaFilter<SchemaEnricherFilter>();
+    }
+
+    public static void AddEnricherServices(this IServiceCollection services)
+    {
+        services.AddSwaggerGen(options =>
+        {
+            options.AddEnricherFilters();
+        });
     }
 }

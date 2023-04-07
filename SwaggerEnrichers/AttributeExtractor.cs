@@ -1,8 +1,8 @@
 ﻿using System.Reflection;
 
-namespace Api.Swagger.EnricherSystem.Filters;
+namespace SwaggerEnrichers;
 
-public class AttributeExtractor
+internal class AttributeExtractor
 {
     private List<TAttribute> GetAttributesAssignableToGeneric<TAttribute>(ICustomAttributeProvider attributeProvider) 
         where TAttribute : class

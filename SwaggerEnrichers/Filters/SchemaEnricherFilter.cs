@@ -1,11 +1,12 @@
 ﻿using System.Reflection;
-using Api.Swagger.EnricherSystem.CreateOwnEnrichers;
 using Microsoft.OpenApi.Models;
+using SwaggerEnrichers.CreateOwnEnrichers;
+using SwaggerEnrichers.EnricherProviders;
 using Swashbuckle.AspNetCore.SwaggerGen;
 
-namespace Api.Swagger.EnricherSystem.Filters;
+namespace SwaggerEnrichers.Filters;
 
-public class SchemaEnricherFilter : ISchemaFilter
+internal class SchemaEnricherFilter : ISchemaFilter
 {
     private readonly ISchemaEnricherProvider _enricherProvider = new EnricherProvider();
     

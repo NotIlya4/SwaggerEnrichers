@@ -1,0 +1,12 @@
+D:\Projects\Programming\cs\SwaggerEnrichers\SwaggerEnrichers\bin\Debug\net7.0\SwaggerEnrichers.deps.json
+D:\Projects\Programming\cs\SwaggerEnrichers\SwaggerEnrichers\bin\Debug\net7.0\SwaggerEnrichers.dll
+D:\Projects\Programming\cs\SwaggerEnrichers\SwaggerEnrichers\bin\Debug\net7.0\SwaggerEnrichers.pdb
+D:\Projects\Programming\cs\SwaggerEnrichers\SwaggerEnrichers\obj\Debug\net7.0\SwaggerEnrichers.csproj.AssemblyReference.cache
+D:\Projects\Programming\cs\SwaggerEnrichers\SwaggerEnrichers\obj\Debug\net7.0\SwaggerEnrichers.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\Programming\cs\SwaggerEnrichers\SwaggerEnrichers\obj\Debug\net7.0\SwaggerEnrichers.AssemblyInfoInputs.cache
+D:\Projects\Programming\cs\SwaggerEnrichers\SwaggerEnrichers\obj\Debug\net7.0\SwaggerEnrichers.AssemblyInfo.cs
+D:\Projects\Programming\cs\SwaggerEnrichers\SwaggerEnrichers\obj\Debug\net7.0\SwaggerEnrichers.csproj.CoreCompileInputs.cache
+D:\Projects\Programming\cs\SwaggerEnrichers\SwaggerEnrichers\obj\Debug\net7.0\SwaggerEnrichers.dll
+D:\Projects\Programming\cs\SwaggerEnrichers\SwaggerEnrichers\obj\Debug\net7.0\refint\SwaggerEnrichers.dll
+D:\Projects\Programming\cs\SwaggerEnrichers\SwaggerEnrichers\obj\Debug\net7.0\SwaggerEnrichers.pdb
+D:\Projects\Programming\cs\SwaggerEnrichers\SwaggerEnrichers\obj\Debug\net7.0\ref\SwaggerEnrichers.dll
