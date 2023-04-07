@@ -103,3 +103,5 @@ D:\Projects\Programming\cs\SwaggerEnrichers\SwaggerEnrichers.UnitTests\obj\Debug
 D:\Projects\Programming\cs\SwaggerEnrichers\SwaggerEnrichers.UnitTests\obj\Debug\net7.0\SwaggerEnrichers.UnitTests.pdb
 D:\Projects\Programming\cs\SwaggerEnrichers\SwaggerEnrichers.UnitTests\obj\Debug\net7.0\SwaggerEnrichers.UnitTests.genruntimeconfig.cache
 D:\Projects\Programming\cs\SwaggerEnrichers\SwaggerEnrichers.UnitTests\obj\Debug\net7.0\ref\SwaggerEnrichers.UnitTests.dll
+D:\Projects\Programming\cs\SwaggerEnrichers\SwaggerEnrichers.UnitTests\bin\Debug\net7.0\Castle.Core.dll
+D:\Projects\Programming\cs\SwaggerEnrichers\SwaggerEnrichers.UnitTests\bin\Debug\net7.0\Moq.dll

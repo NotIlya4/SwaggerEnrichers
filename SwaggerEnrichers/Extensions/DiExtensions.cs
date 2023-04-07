@@ -11,12 +11,4 @@ public static class DiExtensions
         options.ParameterFilter<ParameterEnricherFilter>();
         options.SchemaFilter<SchemaEnricherFilter>();
     }
-
-    public static void AddEnricherServices(this IServiceCollection services)
-    {
-        services.AddSwaggerGen(options =>
-        {
-            options.AddEnricherFilters();
-        });
-    }
 }

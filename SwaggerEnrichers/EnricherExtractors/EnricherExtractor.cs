@@ -1,20 +1,20 @@
 ﻿using System.Reflection;
-using SwaggerEnrichers.CreateOwnEnrichers;
+using SwaggerEnrichers.CreateCustomEnrichers;
 
-namespace SwaggerEnrichers.EnricherProviders;
+namespace SwaggerEnrichers.EnricherExtractors;
 
-internal class EnricherProvider : ISchemaEnricherProvider, IParameterEnricherProvider
+internal class EnricherExtractor : ISchemaEnricherExtractor, IParameterEnricherExtractor
 {
     private readonly AttributeExtractor _attributeExtractor = new AttributeExtractor();
     
-    public IParameterEnricher? GetParameterEnricher(ICustomAttributeProvider? attributeProvider)
+    public IParameterEnricher? ExtractParameterEnricher(ICustomAttributeProvider? attributeProvider)
     {
         if (attributeProvider is null) return null;
 
         return _attributeExtractor.GetAttributeAssignableTo<IParameterEnricher>(attributeProvider);
     }
 
-    public ISchemaEnricher? GetSchemaEnricher(ICustomAttributeProvider? attributeProvider)
+    public ISchemaEnricher? ExtractSchemaEnricher(ICustomAttributeProvider? attributeProvider)
     {
         if (attributeProvider is null) return null;
         

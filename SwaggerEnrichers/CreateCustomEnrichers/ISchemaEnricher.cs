@@ -1,6 +1,6 @@
 ﻿using Microsoft.OpenApi.Models;
 
-namespace SwaggerEnrichers.CreateOwnEnrichers;
+namespace SwaggerEnrichers.CreateCustomEnrichers;
 
 public interface ISchemaEnricher
 {

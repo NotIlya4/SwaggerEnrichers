@@ -1,6 +1,4 @@
-﻿using SwaggerEnrichers.Filters;
-
-namespace SwaggerEnrichers.UnitTests.AttributeExtractorTests;
+﻿namespace SwaggerEnrichers.UnitTests.EnricherExtractors;
 
 public class AttributeExtractorTests
 {

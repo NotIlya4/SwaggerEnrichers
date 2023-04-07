@@ -1,4 +1,4 @@
-﻿namespace SwaggerEnrichers.UnitTests.AttributeExtractorTests;
+﻿namespace SwaggerEnrichers.UnitTests.EnricherExtractors;
 
 [TestAttribute2]
 [TestAttribute1(Name = "1")]
