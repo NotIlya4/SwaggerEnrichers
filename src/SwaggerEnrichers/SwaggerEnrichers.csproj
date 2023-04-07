@@ -4,6 +4,17 @@
     <TargetFramework>net7.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <Authors>NotIlya</Authors>
+    <Description>SwaggerEnrichers is a C# package that offers a more flexible and convenient way to add ISchemaFilter and IParameterFilter using attributes. While you can use the SwaggerSchemaAttribute from Swashbuckle.AspNetCore.Annotations, SwaggerEnrichers allows you to configure example values, value type and so on.</Description>
+    <Copyright>MIT</Copyright>
+    <RepositoryUrl>https://github.com/NotIlya4/SwaggerEnrichers</RepositoryUrl>
+    <PackageTags>Swagger, Swashbuckle, Enricher, Filter, Schema</PackageTags>
+    <Title>SwaggerEnrichers</Title>
+    <Product>SwaggerEnrichers</Product>
+    <PackageId>SwaggerEnrichers</PackageId>
+    <Version>1.0.0</Version>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
   </PropertyGroup>
 
   <ItemGroup>
@@ -13,6 +24,13 @@
 
   <ItemGroup>
     <InternalsVisibleTo Include="SwaggerEnrichers.UnitTests" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
   </ItemGroup>
 
 </Project>
