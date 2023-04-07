@@ -6,6 +6,18 @@
 
 `SwaggerEnrichers` comprises an `ISchemaFilter` and an `IParameterFilter` that analyze incoming classes, parameters, and properties. The filters look for attributes that implement `IParameterEnricher` or `ISchemaEnricher`, once they find these attributes, they use their Enrich methods to modify the schema or parameter.
 
+## Instalation
+
+SwaggerEnrichers is [available on NuGet](https://www.nuget.org/packages/SwaggerEnrichers) and can be installed via the below commands:
+
+```
+$ Install-Package SwaggerEnrichers
+```
+or via the .NET Core CLI:
+```
+$ dotnet add package SwaggerEnrichers
+```
+
 ## Getting started
 
 To get started with `SwaggerEnrichers`, you need to add the necessary filters to `SwaggerGen`:
