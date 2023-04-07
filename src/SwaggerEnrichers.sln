@@ -5,11 +5,11 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{A4E36B55-A505-4D45-9079-F10501D50587}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwaggerEnrichers", "src\SwaggerEnrichers\SwaggerEnrichers.csproj", "{1B13C7F1-BB0C-4002-A68A-4EC36971834F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwaggerEnrichers", "SwaggerEnrichers\SwaggerEnrichers.csproj", "{1B13C7F1-BB0C-4002-A68A-4EC36971834F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwaggerEnrichers.UnitTests", "src\SwaggerEnrichers.UnitTests\SwaggerEnrichers.UnitTests.csproj", "{D1D992B7-2AC2-47C7-AEBA-61FC8AD781CC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwaggerEnrichers.UnitTests", "SwaggerEnrichers.UnitTests\SwaggerEnrichers.UnitTests.csproj", "{D1D992B7-2AC2-47C7-AEBA-61FC8AD781CC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwaggerEnrichers.Demo", "src\SwaggerEnrichers.Demo\SwaggerEnrichers.Demo.csproj", "{585D9716-97F2-4454-802E-1994A56F79E0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwaggerEnrichers.Demo", "SwaggerEnrichers.Demo\SwaggerEnrichers.Demo.csproj", "{585D9716-97F2-4454-802E-1994A56F79E0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
